@@ -1,0 +1,42 @@
+baseURL = 'https://blog.powwow787.xyz/'
+languageCode = 'en-us'
+title = '파우와우의 블로그'
+theme = "hugo-theme-monochrome"
+
+[pagination]
+  pagerSize = 7
+
+[[menu.navbar]]
+identifier = "Home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 100
+
+[[menu.navbar]]
+identifier = "tags"
+name = "tags"
+title = "tags"
+url = "/tags"
+weight = 200
+
+[[menu.navbar]]
+identifier = "github"
+name = "github"
+title = "github"
+url = "https://github.com/powwow787"
+weight = 400
+    
+[params]
+  author = "Doyul"
+  enable_site_search = true
+  [[params.social]]
+    icon = "brand-github"
+    name = "Github"
+    url = "https://github.com/powwow787"
+    
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+    
