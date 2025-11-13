@@ -1,0 +1,35 @@
+{{- define "content" -}}
+
+{{ if and (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") (.Store.Get "params").enable_toc }}
+    {{ $toc_position := (.Store.Get "params").toc_position }}
+    {{ if eq $toc_position "right" }}
+        {{ partial "fixed-toc.html" (dict "context" . "position" $toc_position) }}
+    {{ else if eq $toc_position "top" }}
+        {{ $enable_collapsible_toc := (.Store.Get "params").enable_collapsible_toc }}
+        {{ partial "collapsible-menu.html" (dict "type" "toc" "context" . "enable" $enable_collapsible_toc) }}
+    {{ end }}
+{{ end }}
+
+{{ if .Content }}
+    <div class="content-margin">
+        {{- partial "content.html" (dict "ctx" . "content" .Content) -}}
+    </div>
+{{ end }}
+
+<script src="https://giscus.app/client.js"
+        data-repo="powwow787/blog"
+        data-repo-id="R_kgDOQUtkqA"
+        data-category="General"
+        data-category-id="DIC_kwDOQUtkqM4Cxvev"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{{- end -}}
