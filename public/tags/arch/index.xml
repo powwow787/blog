@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on 파우와우의 블로그</title>
+    <link>http://localhost:1313/tags/arch/</link>
+    <description>Recent content in Arch on 파우와우의 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Nov 2025 23:26:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyprland</title>
+      <link>http://localhost:1313/posts/hyprland/</link>
+      <pubDate>Sun, 09 Nov 2025 23:26:31 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/hyprland/</guid>
+      <description>&lt;p&gt;일단 몇 시간 투자해서 만들어 봤다. (사실 지금은 budgie를 쓴다.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/hypr.png&#34; alt=&#34;hypr&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;구성 요소&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;pywal, neofetch, btop&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;del&gt;호스트 이름은 신경쓰지 말자.&lt;/del&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 파우와우의 블로그</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 파우와우의 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Nov 2025 21:12:02 +0900</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>빼빼로 데이</title>
+      <link>http://localhost:1313/posts/%EB%B9%BC%EB%B9%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4/</link>
+      <pubDate>Tue, 11 Nov 2025 21:12:02 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/%EB%B9%BC%EB%B9%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4/</guid>
+      <description>&lt;p&gt;오늘은 11월 11일, 빼빼로 데이이다. 처음으로 다른 여자에게 빼빼로를 받아봤다. 그런데 주머니에서 빼자 마자 묶여있던 빵끈이 풀리면서 &lt;strong&gt;빼빼로가 다 쏟아졌다&lt;/strong&gt;.. (&amp;hellip;.)&lt;/p&gt;
+&lt;p&gt;걔가 직접 만든거라는데 그것도 걔 보는 앞에서 쏟아졌다.&lt;/p&gt;
+&lt;p&gt;걔한테 카톡으로 사과를 보냈는데 그냥 &amp;ldquo;상관 없어&amp;rdquo; 라고만 왔다. 아 망했다&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;이게 내 마지막은 아니겠지&lt;/del&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hyprland</title>
+      <link>http://localhost:1313/posts/hyprland/</link>
+      <pubDate>Sun, 09 Nov 2025 23:26:31 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/hyprland/</guid>
+      <description>&lt;p&gt;일단 몇 시간 투자해서 만들어 봤다. (사실 지금은 budgie를 쓴다.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/hypr.png&#34; alt=&#34;hypr&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;구성 요소&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;pywal, neofetch, btop&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;del&gt;호스트 이름은 신경쓰지 말자.&lt;/del&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wow</title>
+      <link>http://localhost:1313/posts/wow/</link>
+      <pubDate>Thu, 07 Aug 2025 23:36:30 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/wow/</guid>
+      <description>&lt;p&gt;미친 젤리 한 개에서 젤리 두 개가 나왔다 미쳐따&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/wow.jpg&#34; alt=&#34;wow&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/wow1.jpg&#34; alt=&#34;wow1&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
