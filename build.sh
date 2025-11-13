@@ -2,19 +2,16 @@
 
 #------------------------------------------------------------------------------
 # @file
-# Builds a Hugo site hosted on Vercel.
+# Builds a Hugo site hosted on a Render.
 #
-# The Vercel build image automatically installs Node.js dependencies.
+# Render automatically installs Node.js dependencies.
 #------------------------------------------------------------------------------
 
 main() {
 
-  DART_SASS_VERSION=1.93.2
-  GO_VERSION=1.25.3
-  HUGO_VERSION=0.152.2
-  NODE_VERSION=22.20.0
-
-  export TZ=Europe/Oslo
+  # Create directory for user-specific executable files
+  echo "Creating directory for user-specific executable files..."
+  mkdir -p "${HOME}/.local"
 
   # Install Dart Sass
   echo "Installing Dart Sass ${DART_SASS_VERSION}..."
@@ -33,17 +30,10 @@ main() {
   # Install Hugo
   echo "Installing Hugo ${HUGO_VERSION}..."
   curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-  mkdir "${HOME}/.local/hugo"
+  mkdir -p "${HOME}/.local/hugo"
   tar -C "${HOME}/.local/hugo" -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   rm "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   export PATH="${HOME}/.local/hugo:${PATH}"
-
-  # Install Node.js
-  echo "Installing Node.js ${NODE_VERSION}..."
-  curl -sLJO "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz"
-  tar -C "${HOME}/.local" -xf "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  rm "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  export PATH="${HOME}/.local/node-v${NODE_VERSION}-linux-x64/bin:${PATH}"
 
   # Verify installations
   echo "Verifying installations..."
@@ -60,8 +50,8 @@ main() {
   fi
 
   # Build the site
-  echo "Building the site"
-  hugo --gc --minify --baseURL "https://${VERCEL_PROJECT_PRODUCTION_URL}"
+  echo "Building the site..."
+  hugo --gc --minify --baseURL "${RENDER_EXTERNAL_URL}"
 
 }
 
