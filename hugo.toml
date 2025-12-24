@@ -1,8 +1,7 @@
 baseURL = 'https://blog.powwow787.xyz/'
 languageCode = 'en-us'
 title = '파우와우의 블로그'
-theme = "hugo-theme-monochrome"
-
+theme = 'moonchrome'
 [pagination]
   pagerSize = 7
 

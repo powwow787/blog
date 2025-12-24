@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-11T21:12:02+09:00</lastmod>
+    <loc>http://localhost:1313/posts/1%ED%95%99%EA%B8%B0-%EA%B8%B0%EB%A7%90-%EB%A7%9D%ED%95%9C-%EC%8D%B0/</loc>
+    <lastmod>2025-12-24T23:06:02+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%EB%B9%BC%EB%B9%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4/</loc>
-    <lastmod>2025-11-11T21:12:02+09:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-12-24T23:06:02+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-24T23:06:02+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%EB%B9%BC%EB%B9%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4/</loc>
     <lastmod>2025-11-11T21:12:02+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/arch/</loc>
